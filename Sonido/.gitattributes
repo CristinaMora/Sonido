@@ -1,0 +1,3 @@
+# Normalización para archivos Unity
+*.meta text eol=lf
+*.unity text eol=lf
