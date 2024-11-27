@@ -53,7 +53,7 @@
 			<destination>{9efecaf0-ef18-428f-bf74-c52d671b5bef}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{dd72d3ae-2d4f-4162-a7bb-c595afa1c53c}</destination>
+			<destination>{f233529f-9896-40a9-9c13-65c7c9f7de5c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4baeb132-88b8-41ff-bdd5-c2dae4c34248}" />
@@ -103,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{15791fbf-ccad-4daf-b553-1ef10b204fae}">
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -132,7 +135,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{9e8d33cb-7b48-4da0-a3f6-42be4fd56a1e}">
 		<relationship name="effects">
-			<destination>{7434ddb6-eeb0-4ccb-9900-7d1573caac2b}</destination>
 			<destination>{4ff552d1-7b2e-4238-a260-2d7085b0e7a0}</destination>
 			<destination>{21039b2e-eaed-4bc9-a428-d42590b95745}</destination>
 		</relationship>
@@ -153,15 +155,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2026bfc3-48b2-4cb8-a0e7-b1a56347f9b6}" />
-	<object class="SFXReverbEffect" id="{7434ddb6-eeb0-4ccb-9900-7d1573caac2b}" />
 	<object class="MixerBusFader" id="{4ff552d1-7b2e-4238-a260-2d7085b0e7a0}" />
 	<object class="SpatialiserEffect" id="{21039b2e-eaed-4bc9-a428-d42590b95745}" />
 	<object class="MultibandEqEffect" id="{b74c453c-8994-44d9-96ee-24acb889c39e}">
 		<property name="frequencyA">
-			<value>500</value>
+			<value>460</value>
 		</property>
 		<property name="qualityA">
-			<value>0.539999962</value>
+			<value>1.14999998</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{72b835cc-f442-427c-82b9-2d5d6a49523c}" />
