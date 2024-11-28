@@ -406,6 +406,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Arcade
+  - SFX_Arcade
   - SFX_Fountain
   - SFX_MallSong
   BanksToLoad: []

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{58156ad5-ff9b-4cbc-9fa1-46112a7980dc}">
+		<property name="assetPath">
+			<value>261145__portwain__soviet-arcade-circus-pinball-game.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>97.209297052154199</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcf19f25-ac7f-419d-a903-5844b203c82f}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -15,11 +15,65 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Fountain.bank
   Name: SFX_Fountain
   StudioPath: bank:/SFX_Fountain
-  lastModified: 638683301360678386
+  lastModified: 638683802346323175
   FileSizes:
   - Name: Desktop
     Value: 199392
   Exists: 1
+--- !u!114 &-6939365273273768980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/Air Hokey
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/Air Hokey
+  Guid:
+    Data1: -1662369183
+    Data2: 1230679015
+    Data3: 1318385591
+    Data4: 2084423536
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29464
+--- !u!114 &-6471288959898161737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/Asteroidsmachine
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/Asteroidsmachine
+  Guid:
+    Data1: -776660050
+    Data2: 1130865873
+    Data3: -1768121684
+    Data4: -1540776036
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47204
 --- !u!114 &-6411057400511614570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,11 +89,173 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Arcade.bank
   Name: Arcade
   StudioPath: bank:/Arcade
-  lastModified: 638683301361328373
+  lastModified: 638683843586654312
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 2800576
   Exists: 1
+--- !u!114 &-6348544307848587366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/pinb
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/pinb
+  Guid:
+    Data1: -1526364381
+    Data2: 1200655392
+    Data3: -1105736302
+    Data4: -1958870200
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 97209
+--- !u!114 &-5692885853991634205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/cars
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/cars
+  Guid:
+    Data1: -296769322
+    Data2: 1093482979
+    Data3: 324956602
+    Data4: 1730611236
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23564
+--- !u!114 &-4644387060009962514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/dance
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/dance
+  Guid:
+    Data1: 1832869134
+    Data2: 1073869329
+    Data3: -1967874883
+    Data4: 82196777
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-4099108334711089861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/background
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/background
+  Guid:
+    Data1: -1611165086
+    Data2: 1273106798
+    Data3: 374846100
+    Data4: 154870666
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13800
+--- !u!114 &-4035351363171372134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/machine3
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/machine3
+  Guid:
+    Data1: 1210531861
+    Data2: 1237033840
+    Data3: -859542392
+    Data4: -684266209
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15100
+--- !u!114 &-3975597818896485403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/machine2
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/machine2
+  Guid:
+    Data1: -858920102
+    Data2: 1323453799
+    Data3: 1916356765
+    Data4: 443968948
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21535
 --- !u!114 &-3479058034815278183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,6 +310,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23440
+--- !u!114 &-2164054584089222035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/botones
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/botones
+  Guid:
+    Data1: 1305688888
+    Data2: 1164087214
+    Data3: 1699996545
+    Data4: -1388856580
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18316
+--- !u!114 &-1267878400221229259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/machine4
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/machine4
+  Guid:
+    Data1: 273805420
+    Data2: 1282284194
+    Data3: 1222085306
+    Data4: -2101154816
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12804
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,17 +382,32 @@ MonoBehaviour:
   - {fileID: -8941808949198403833}
   - {fileID: 2043222734320394086}
   - {fileID: -6411057400511614570}
+  - {fileID: 9189865562974396049}
   EditorEvents:
   - {fileID: -3319912851017456944}
   - {fileID: 5032069368679708442}
   - {fileID: -3479058034815278183}
   - {fileID: 822526558539925916}
+  - {fileID: -4099108334711089861}
+  - {fileID: -2164054584089222035}
+  - {fileID: 7245071761202402313}
+  - {fileID: -6939365273273768980}
+  - {fileID: 2068875927237656776}
+  - {fileID: 4297091710553358971}
+  - {fileID: -6471288959898161737}
+  - {fileID: -6348544307848587366}
+  - {fileID: -5692885853991634205}
+  - {fileID: -4644387060009962514}
+  - {fileID: -4035351363171372134}
+  - {fileID: -3975597818896485403}
+  - {fileID: -1267878400221229259}
+  - {fileID: 5829941452224172908}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638683332748080401
+  cacheTime: 638683843586984524
   cacheVersion: 131621
 --- !u!114 &822526558539925916
 MonoBehaviour:
@@ -166,11 +451,38 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_MallSong.bank
   Name: SFX_MallSong
   StudioPath: bank:/SFX_MallSong
-  lastModified: 638683332748080401
+  lastModified: 638683802349476821
   FileSizes:
   - Name: Desktop
     Value: 1935968
   Exists: 1
+--- !u!114 &2068875927237656776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/loseasteroidsmachine
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/loseasteroidsmachine
+  Guid:
+    Data1: 783841401
+    Data2: 1108750296
+    Data3: 369260713
+    Data4: -2042962305
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 47204
 --- !u!114 &3071153380418896223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,11 +498,38 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638683329178458566
+  lastModified: 638683838660368969
   FileSizes:
   - Name: Desktop
     Value: 5290
   Exists: 1
+--- !u!114 &4297091710553358971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/Arcadecoins
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/Arcadecoins
+  Guid:
+    Data1: -1462877815
+    Data2: 1299669796
+    Data3: -2043579736
+    Data4: -1414969947
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3800
 --- !u!114 &5032069368679708442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,6 +557,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 147576
+--- !u!114 &5829941452224172908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/machine1
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/machine1
+  Guid:
+    Data1: -690745356
+    Data2: 1162619518
+    Data3: 1860314759
+    Data4: 489549500
+  Banks:
+  - {fileID: -6411057400511614570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23993
 --- !u!114 &6093083612157903448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,8 +599,55 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638683329178478566
+  lastModified: 638683838660378932
   FileSizes:
   - Name: Desktop
-    Value: 1092
+    Value: 1732
+  Exists: 1
+--- !u!114 &7245071761202402313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ArcadeMachine/spaceinviders
+  m_EditorClassIdentifier: 
+  Path: event:/ArcadeMachine/spaceinviders
+  Guid:
+    Data1: -1512442810
+    Data2: 1143287741
+    Data3: -1398833744
+    Data4: 177421867
+  Banks:
+  - {fileID: 9189865562974396049}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92719
+--- !u!114 &9189865562974396049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX_Arcade.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodAudioSystem/Build/Desktop/SFX_Arcade.bank
+  Name: SFX_Arcade
+  StudioPath: bank:/SFX_Arcade
+  lastModified: 638683843586984524
+  FileSizes:
+  - Name: Desktop
+    Value: 2140800
   Exists: 1
