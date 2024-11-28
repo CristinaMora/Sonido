@@ -408,7 +408,9 @@ MonoBehaviour:
   - Arcade
   - SFX_Arcade
   - SFX_Fountain
+  - SFX_Ladder
   - SFX_MallSong
+  - SFX_Voices
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

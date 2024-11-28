@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d70f5014-45e7-4fe9-bd4e-990f38e93299}">
+		<property name="name">
+			<value>Chirrido</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ec19601c-84f7-4734-8f24-7afe85cba946}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0572c18a-ffcf-4eb2-b4c8-482a057a0c41}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0572c18a-ffcf-4eb2-b4c8-482a057a0c41}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
