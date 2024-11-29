@@ -8,8 +8,9 @@ public class PlaySoundWhenTriggered : MonoBehaviour
 {
 	[SerializeField]
 	public GameObject triggerGameObject;
-
-	private DetectTrigger triggerNotifier;
+    [SerializeField]
+    public bool  triggerexit = false;
+    private DetectTrigger triggerNotifier;
 
 	void Start()
 	{
@@ -27,8 +28,12 @@ public class PlaySoundWhenTriggered : MonoBehaviour
 	{
 		// Maneja la interacción con el objeto de la capa Player
 		Debug.Log($"El trigger detectó al jugador: {playerCollider.name}");
-		if(!this.gameObject.GetComponent<StudioEventEmitter>().IsPlaying()) this.gameObject.GetComponent<StudioEventEmitter>().Play();
-	}
+		if (!this.gameObject.GetComponent<StudioEventEmitter>().IsPlaying()) this.gameObject.GetComponent<StudioEventEmitter>().Play();
+		else if (triggerexit && this.gameObject.GetComponent<StudioEventEmitter>().IsPlaying()) { 
+			this.gameObject.GetComponent<StudioEventEmitter>().Stop();
+			Debug.Log("stop");
+		}
+    }
 
 	private void OnDestroy()
 	{

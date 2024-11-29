@@ -21,6 +21,7 @@ public class DetectTrigger : MonoBehaviour
 		if (other.gameObject.tag == "PlayerTag")
 		{
 			Debug.Log($"{other.name} salió del trigger.");
-		}
+            OnPlayerTrigger?.Invoke(other);
+        }
 	}
 }
