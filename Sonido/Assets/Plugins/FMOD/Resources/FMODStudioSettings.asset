@@ -406,10 +406,12 @@ MonoBehaviour:
   - Master
   Banks:
   - Arcade
+  - SFX
   - SFX_Arcade
   - SFX_Fountain
   - SFX_Ladder
   - SFX_MallSong
+  - SFX_TiendaRopaMusic
   - SFX_Voices
   BanksToLoad: []
   LiveUpdatePort: 9264

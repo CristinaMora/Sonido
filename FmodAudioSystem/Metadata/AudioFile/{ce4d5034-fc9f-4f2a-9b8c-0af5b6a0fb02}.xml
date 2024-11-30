@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ce4d5034-fc9f-4f2a-9b8c-0af5b6a0fb02}">
+		<property name="assetPath">
+			<value>Outer Wilds Ventures - Traveller Theme - Drums Solo.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>41.900408163265304</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcf19f25-ac7f-419d-a903-5844b203c82f}</destination>
+		</relationship>
+	</object>
+</objects>

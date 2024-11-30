@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8c050528-5208-4ab9-8084-2014fb51eeff}">
+		<property name="assetPath">
+			<value>733553__misperpodcast__beeping-car-horn-from-inside-car-engine-off.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.5056874999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcf19f25-ac7f-419d-a903-5844b203c82f}</destination>
+		</relationship>
+	</object>
+</objects>
