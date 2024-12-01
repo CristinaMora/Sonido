@@ -20,6 +20,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 199392
   Exists: 1
+--- !u!114 &-8038759684779846418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/PeopleTalkingGeneral
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/PeopleTalkingGeneral
+  Guid:
+    Data1: 78621391
+    Data2: 1214648080
+    Data3: -1959700861
+    Data4: 1362087908
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
 --- !u!114 &-6939365273273768980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +74,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 58928
+--- !u!114 &-6484098832504160804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbienceBoxing
+  m_EditorClassIdentifier: 
+  Path: event:/AmbienceBoxing
+  Guid:
+    Data1: 1974557209
+    Data2: 1216336991
+    Data3: -1794732383
+    Data4: -2109426821
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 186200
 --- !u!114 &-6471288959898161737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +143,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Arcade.bank
   Name: Arcade
   StudioPath: bank:/Arcade
-  lastModified: 638685802682492720
+  lastModified: 638686604596376011
   FileSizes:
   - Name: Desktop
     Value: 2801088
@@ -217,10 +271,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638685920879283030
+  lastModified: 638686672565065311
   FileSizes:
   - Name: Desktop
-    Value: 3130528
+    Value: 5650976
   Exists: 1
 --- !u!114 &-4644387060009962514
 MonoBehaviour:
@@ -249,6 +303,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &-4250957735287643928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/MusicElectronicShop
+  m_EditorClassIdentifier: 
+  Path: snapshot:/MusicElectronicShop
+  Guid:
+    Data1: -454052204
+    Data2: 1181470325
+    Data3: 206895264
+    Data4: -717005842
+  Banks:
+  - {fileID: 3071153380418896223}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4099108334711089861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,6 +627,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41900
+--- !u!114 &-285913919507437665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MusicaTiendaElectronica
+  m_EditorClassIdentifier: 
+  Path: event:/MusicaTiendaElectronica
+  Guid:
+    Data1: 1338484594
+    Data2: 1150000347
+    Data3: 1906402176
+    Data4: -1239819664
+  Banks:
+  - {fileID: 3087574805976444629}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 210242
+--- !u!114 &-213949346407616575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HardBreathing
+  m_EditorClassIdentifier: 
+  Path: event:/HardBreathing
+  Guid:
+    Data1: 1348801283
+    Data2: 1131398163
+    Data3: -416249981
+    Data4: 1684146709
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,6 +704,7 @@ MonoBehaviour:
   - {fileID: 5968877486511275495}
   - {fileID: 4191672205298217614}
   - {fileID: -4802091426522526570}
+  - {fileID: 3087574805976444629}
   EditorEvents:
   - {fileID: -3319912851017456944}
   - {fileID: -3479058034815278183}
@@ -591,7 +727,6 @@ MonoBehaviour:
   - {fileID: -1827397378869728679}
   - {fileID: 2946239469899878647}
   - {fileID: -3832327233523106259}
-  - {fileID: 8371375353028605875}
   - {fileID: 1032076632350712035}
   - {fileID: 2516783186500051609}
   - {fileID: 6277382271363265965}
@@ -602,12 +737,21 @@ MonoBehaviour:
   - {fileID: 8054748533923361756}
   - {fileID: -5807985084699633782}
   - {fileID: 6090620771849897633}
+  - {fileID: -4250957735287643928}
+  - {fileID: -285913919507437665}
+  - {fileID: 4494448897893515921}
+  - {fileID: 1505497930526485326}
+  - {fileID: -6484098832504160804}
+  - {fileID: 3203554175397976477}
+  - {fileID: -213949346407616575}
+  - {fileID: 6091457325317901616}
+  - {fileID: -8038759684779846418}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638685920879283030
+  cacheTime: 638686680681231773
   cacheVersion: 131621
 --- !u!114 &822526558539925916
 MonoBehaviour:
@@ -663,6 +807,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 147576
+--- !u!114 &1505497930526485326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boxing
+  m_EditorClassIdentifier: 
+  Path: event:/Boxing
+  Guid:
+    Data1: -271782097
+    Data2: 1280195010
+    Data3: -1560157533
+    Data4: 1435040011
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5500
 --- !u!114 &2043222734320394086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,11 +950,58 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638685919852278505
+  lastModified: 638686680672068323
   FileSizes:
   - Name: Desktop
-    Value: 9676
+    Value: 11692
   Exists: 1
+--- !u!114 &3087574805976444629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX_TiendaElectronica.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodAudioSystem/Build/Desktop/SFX_TiendaElectronica.bank
+  Name: SFX_TiendaElectronica
+  StudioPath: bank:/SFX_TiendaElectronica
+  lastModified: 638686557615590269
+  FileSizes:
+  - Name: Desktop
+    Value: 4443360
+  Exists: 1
+--- !u!114 &3203554175397976477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pesas
+  m_EditorClassIdentifier: 
+  Path: event:/Pesas
+  Guid:
+    Data1: -1295587993
+    Data2: 1305398246
+    Data3: -10983508
+    Data4: 1004758282
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2405
 --- !u!114 &4191672205298217614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,6 +1049,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3800
+--- !u!114 &4494448897893515921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/BoxingGroup
+  m_EditorClassIdentifier: 
+  Path: snapshot:/BoxingGroup
+  Guid:
+    Data1: 24777998
+    Data2: 1319312380
+    Data3: 819280822
+    Data4: -1496707263
+  Banks:
+  - {fileID: 3071153380418896223}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4868014254059674229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,6 +1177,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41900
+--- !u!114 &6091457325317901616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GirlLifting
+  m_EditorClassIdentifier: 
+  Path: event:/GirlLifting
+  Guid:
+    Data1: 466433885
+    Data2: 1191503012
+    Data3: 1826367621
+    Data4: -1587956377
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
 --- !u!114 &6093083612157903448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,10 +1219,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638685919852298537
+  lastModified: 638686680672098019
   FileSizes:
   - Name: Desktop
-    Value: 2710
+    Value: 3286
   Exists: 1
 --- !u!114 &6277382271363265965
 MonoBehaviour:
@@ -994,10 +1266,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Voices.bank
   Name: SFX_Voices
   StudioPath: bank:/SFX_Voices
-  lastModified: 638685802687582623
+  lastModified: 638686680681231773
   FileSizes:
   - Name: Desktop
-    Value: 62400
+    Value: 420640
   Exists: 1
 --- !u!114 &7245071761202402313
 MonoBehaviour:
@@ -1080,33 +1352,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41900
---- !u!114 &8371375353028605875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/SilenceMallSong
-  m_EditorClassIdentifier: 
-  Path: snapshot:/SilenceMallSong
-  Guid:
-    Data1: 2063871516
-    Data2: 1228825894
-    Data3: -189354879
-    Data4: -1773541990
-  Banks:
-  - {fileID: 3071153380418896223}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &9189865562974396049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1122,7 +1367,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Arcade.bank
   Name: SFX_Arcade
   StudioPath: bank:/SFX_Arcade
-  lastModified: 638685802685013011
+  lastModified: 638686604598576701
   FileSizes:
   - Name: Desktop
     Value: 2141344

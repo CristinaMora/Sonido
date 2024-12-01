@@ -411,6 +411,7 @@ MonoBehaviour:
   - SFX_Fountain
   - SFX_Ladder
   - SFX_MallSong
+  - SFX_TiendaElectronica
   - SFX_TiendaRopaMusic
   - SFX_Voices
   BanksToLoad: []

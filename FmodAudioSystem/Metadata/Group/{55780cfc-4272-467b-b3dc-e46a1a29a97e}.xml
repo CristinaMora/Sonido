@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{55780cfc-4272-467b-b3dc-e46a1a29a97e}">
+		<property name="name">
+			<value>PeopleTalking</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f373849f-2769-4a5f-9957-d0402ac5e326}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{46f7fed6-2efc-43ca-acdd-12aa2e3b1be3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{dd72d3ae-2d4f-4162-a7bb-c595afa1c53c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f373849f-2769-4a5f-9957-d0402ac5e326}">
+		<relationship name="effects">
+			<destination>{9e949680-bfeb-4636-872e-fb5221c923b8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{46f7fed6-2efc-43ca-acdd-12aa2e3b1be3}" />
+	<object class="MixerBusFader" id="{9e949680-bfeb-4636-872e-fb5221c923b8}" />
+</objects>
