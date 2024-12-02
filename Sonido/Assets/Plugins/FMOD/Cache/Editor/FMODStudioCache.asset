@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Fountain.bank
   Name: SFX_Fountain
   StudioPath: bank:/SFX_Fountain
-  lastModified: 638687346407098304
+  lastModified: 638687519379832626
   FileSizes:
   - Name: Desktop
-    Value: 375488
+    Value: 5924544
   Exists: 1
 --- !u!114 &-8065776521296310403
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Arcade.bank
   Name: Arcade
   StudioPath: bank:/Arcade
-  lastModified: 638687322576692763
+  lastModified: 638687523775462489
   FileSizes:
   - Name: Desktop
     Value: 2801088
@@ -326,7 +326,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638687322615746464
+  lastModified: 638687519309822217
   FileSizes:
   - Name: Desktop
     Value: 5650976
@@ -513,13 +513,13 @@ MonoBehaviour:
     Data4: 1911681430
   Banks:
   - {fileID: -8941808949198403833}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 8657
+  Length: 215928
 --- !u!114 &-3479058034815278183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,7 +836,7 @@ MonoBehaviour:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638687346407098304
+  cacheTime: 638687523776477058
   cacheVersion: 131621
 --- !u!114 &822526558539925916
 MonoBehaviour:
@@ -934,7 +934,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_MallSong.bank
   Name: SFX_MallSong
   StudioPath: bank:/SFX_MallSong
-  lastModified: 638687322619506043
+  lastModified: 638687519381374824
   FileSizes:
   - Name: Desktop
     Value: 1935936
@@ -1035,10 +1035,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638687346406612283
+  lastModified: 638687523776447043
   FileSizes:
   - Name: Desktop
-    Value: 11152
+    Value: 11284
   Exists: 1
 --- !u!114 &3087574805976444629
 MonoBehaviour:
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_TiendaElectronica.bank
   Name: SFX_TiendaElectronica
   StudioPath: bank:/SFX_TiendaElectronica
-  lastModified: 638687322656609468
+  lastModified: 638687519382327216
   FileSizes:
   - Name: Desktop
     Value: 4443360
@@ -1102,10 +1102,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_TiendaRopaMusic.bank
   Name: SFX_TiendaRopaMusic
   StudioPath: bank:/SFX_TiendaRopaMusic
-  lastModified: 638687322693782617
+  lastModified: 638687519383026222
   FileSizes:
   - Name: Desktop
-    Value: 2362176
+    Value: 2362240
   Exists: 1
 --- !u!114 &4297091710553358971
 MonoBehaviour:
@@ -1230,10 +1230,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Ladder.bank
   Name: SFX_Ladder
   StudioPath: bank:/SFX_Ladder
-  lastModified: 638687322619143528
+  lastModified: 638687519380666568
   FileSizes:
   - Name: Desktop
-    Value: 1141664
+    Value: 1141696
   Exists: 1
 --- !u!114 &6090620771849897633
 MonoBehaviour:
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638687346406632260
+  lastModified: 638687523776477058
   FileSizes:
   - Name: Desktop
     Value: 3448
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Voices.bank
   Name: SFX_Voices
   StudioPath: bank:/SFX_Voices
-  lastModified: 638687322699587876
+  lastModified: 638687519383658717
   FileSizes:
   - Name: Desktop
     Value: 420640
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Arcade.bank
   Name: SFX_Arcade
   StudioPath: bank:/SFX_Arcade
-  lastModified: 638687322616766644
+  lastModified: 638687519311582792
   FileSizes:
   - Name: Desktop
     Value: 2141344
