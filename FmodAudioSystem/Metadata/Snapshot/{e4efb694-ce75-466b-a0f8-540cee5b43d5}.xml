@@ -22,7 +22,6 @@
 		<relationship name="snapshotProperties">
 			<destination>{b339a9e2-97af-438b-8a10-a7f37d8b262d}</destination>
 			<destination>{2fff538c-c4eb-4dde-b642-ea9c8698e55b}</destination>
-			<destination>{478af13b-d30d-4d55-b748-fc8cf7b31449}</destination>
 			<destination>{e3dd0620-6635-4eff-bc47-7622d3cb32fc}</destination>
 			<destination>{0e00dac5-8302-4a68-b1db-882f5aab7d65}</destination>
 			<destination>{b284f48c-bff6-4d11-ab60-5dba41e60b81}</destination>
@@ -33,7 +32,6 @@
 		<relationship name="snapshotTracks">
 			<destination>{e055dff3-967a-4e28-82c4-7d7d8027a8cd}</destination>
 			<destination>{3d2550c1-1f1c-4528-808f-bce352c5e47b}</destination>
-			<destination>{13be7288-f0fd-44e9-8587-03ec203a81c9}</destination>
 			<destination>{f4915b91-7dcf-4660-ba5e-b76676243aeb}</destination>
 			<destination>{c1aaad18-79fb-4759-9c2c-2bd39786bc5d}</destination>
 			<destination>{6d1a306e-edd8-49cd-b6f5-d7e68927df5a}</destination>
@@ -65,17 +63,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{51cf5abc-44d4-4e43-8f80-53bf98485260}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{478af13b-d30d-4d55-b748-fc8cf7b31449}">
-		<property name="propertyName">
-			<value>volume</value>
-		</property>
-		<property name="value">
-			<value>-23</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{01f75873-c871-47d9-988f-996b4b7cbe66}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotProperty" id="{e3dd0620-6635-4eff-bc47-7622d3cb32fc}">
@@ -152,11 +139,6 @@
 	<object class="SnapshotTrack" id="{3d2550c1-1f1c-4528-808f-bce352c5e47b}">
 		<relationship name="mixerStrip">
 			<destination>{51cf5abc-44d4-4e43-8f80-53bf98485260}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotTrack" id="{13be7288-f0fd-44e9-8587-03ec203a81c9}">
-		<relationship name="mixerStrip">
-			<destination>{01f75873-c871-47d9-988f-996b4b7cbe66}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{f4915b91-7dcf-4660-ba5e-b76676243aeb}">

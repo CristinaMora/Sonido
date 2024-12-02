@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c8447f11-c9db-4947-b54f-a167c14a5d24}">
+		<property name="name">
+			<value>beep</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ec19601c-84f7-4734-8f24-7afe85cba946}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ab8e4e01-7684-43ba-b9ca-72a67c185e83}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ab8e4e01-7684-43ba-b9ca-72a67c185e83}">
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
