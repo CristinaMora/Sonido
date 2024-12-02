@@ -133,7 +133,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{991238b0-5be2-4796-bfa0-365b13d89b0e}">
 		<property name="volume">
-			<value>-16.5</value>
+			<value>-6.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -158,6 +158,9 @@
 		<property name="polyphony">
 			<value>5</value>
 		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>6000</value>
+		</property>
 		<property name="spawnRate">
 			<value>54</value>
 		</property>
@@ -167,7 +170,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{33fec96e-acc8-44a3-a8a9-3b3a33f73b59}">
 		<property name="volume">
-			<value>-37</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>

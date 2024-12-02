@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstPersonMovement : MonoBehaviour
 {
@@ -40,5 +41,10 @@ public class FirstPersonMovement : MonoBehaviour
 
         // Apply movement.
         rigidbody.velocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.velocity.y, targetVelocity.y);
+
+        if (Input.GetKeyDown(KeyCode.R)){
+            SceneManager.LoadScene("Demo_01");
+            
+        }
     }
 }
