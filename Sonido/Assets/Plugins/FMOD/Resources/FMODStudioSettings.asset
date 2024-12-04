@@ -406,6 +406,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Arcade
+  - PASOS
   - SFX
   - SFX_Arcade
   - SFX_Fountain

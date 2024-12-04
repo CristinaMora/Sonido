@@ -21,6 +21,8 @@ public class FirstPersonLook : MonoBehaviour
     {
         // Lock the mouse cursor to the game screen.
         Cursor.lockState = CursorLockMode.Locked;
+        transform.localRotation = Quaternion.AngleAxis(180, Vector3.right);
+        character.localRotation = Quaternion.AngleAxis(90, Vector3.up);
     }
 
     void Update()
