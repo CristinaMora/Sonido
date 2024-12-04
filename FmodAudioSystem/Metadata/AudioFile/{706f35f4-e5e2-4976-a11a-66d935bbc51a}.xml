@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{706f35f4-e5e2-4976-a11a-66d935bbc51a}">
+		<property name="assetPath">
+			<value>Conversations/627220__golovlevsound__walla-int-russian-children-girls-chatting-dressing-room.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>63.47772916666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcf19f25-ac7f-419d-a903-5844b203c82f}</destination>
+		</relationship>
+	</object>
+</objects>

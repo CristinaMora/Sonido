@@ -20,6 +20,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 5928608
   Exists: 1
+--- !u!114 &-8822993820370851849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/Conversation4
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/Conversation4
+  Guid:
+    Data1: -1875609609
+    Data2: 1299954618
+    Data3: 1984069778
+    Data4: -1617594111
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24500
 --- !u!114 &-8624582582205444746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 30000
+--- !u!114 &-7056500466329314587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/BirdsSnapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/BirdsSnapshot
+  Guid:
+    Data1: -1783316182
+    Data2: 1326867896
+    Data3: 878989236
+    Data4: -162676253
+  Banks:
+  - {fileID: 3071153380418896223}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-6939365273273768980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,10 +433,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638689189003116183
+  lastModified: 638689230805025328
   FileSizes:
   - Name: Desktop
-    Value: 10668288
+    Value: 12833728
   Exists: 1
 --- !u!114 &-4644387060009962514
 MonoBehaviour:
@@ -519,6 +573,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15100
+--- !u!114 &-3994369691602988761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/KeyboardSound
+  m_EditorClassIdentifier: 
+  Path: event:/KeyboardSound
+  Guid:
+    Data1: -339982849
+    Data2: 1340189547
+    Data3: 1115553447
+    Data4: -1900460640
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8400
 --- !u!114 &-3975597818896485403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,6 +735,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23440
+--- !u!114 &-3194507619811917394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/Conversation5
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/Conversation5
+  Guid:
+    Data1: 785463553
+    Data2: 1271031614
+    Data3: -211556980
+    Data4: 308588159
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62500
 --- !u!114 &-2867052661778253188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,12 +1110,17 @@ MonoBehaviour:
   - {fileID: 1275211989216560383}
   - {fileID: -325769467350411450}
   - {fileID: 1106039542123623140}
+  - {fileID: -8822993820370851849}
+  - {fileID: -3194507619811917394}
+  - {fileID: -3994369691602988761}
+  - {fileID: -7056500466329314587}
+  - {fileID: 3524266945644248114}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638689189003116183
+  cacheTime: 638689237068791040
   cacheVersion: 131621
 --- !u!114 &644171589325286289
 MonoBehaviour:
@@ -1314,10 +1427,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638689188900923365
+  lastModified: 638689237068761022
   FileSizes:
   - Name: Desktop
-    Value: 12846
+    Value: 14352
   Exists: 1
 --- !u!114 &3087574805976444629
 MonoBehaviour:
@@ -1366,6 +1479,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2405
+--- !u!114 &3524266945644248114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BirsOutside
+  m_EditorClassIdentifier: 
+  Path: event:/BirsOutside
+  Guid:
+    Data1: 1876385630
+    Data2: 1202191075
+    Data3: -1505901912
+    Data4: 912303148
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 165606
 --- !u!114 &4191672205298217614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,10 +1723,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638689188900943196
+  lastModified: 638689237068791040
   FileSizes:
   - Name: Desktop
-    Value: 3896
+    Value: 4172
   Exists: 1
 --- !u!114 &6277382271363265965
 MonoBehaviour:
@@ -1630,10 +1770,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Voices.bank
   Name: SFX_Voices
   StudioPath: bank:/SFX_Voices
-  lastModified: 638689130888093412
+  lastModified: 638689223008240231
   FileSizes:
   - Name: Desktop
-    Value: 3251808
+    Value: 4272320
   Exists: 1
 --- !u!114 &7245071761202402313
 MonoBehaviour:
