@@ -7,13 +7,15 @@ public class RandomMusic : MonoBehaviour
     // Lista de eventos FMOD
     [SerializeField] private List<EventReference> fmodEvents;
 
+    private System.Random random;
     // Instancia actual del evento
     private FMOD.Studio.EventInstance currentEventInstance;
-
-    void Start()
-    {
-        // Inicia la reproducción aleatoria
-        PlayRandomEvent();
+    private StudioEventEmitter emitter;
+	void Start()
+	{
+        random = new System.Random(System.Environment.TickCount + this.GetHashCode());
+		// Inicia la reproducción aleatoria
+		PlayRandomEvent();
     }
 
     private void PlayRandomEvent()
@@ -23,14 +25,19 @@ public class RandomMusic : MonoBehaviour
             Debug.LogWarning("No hay eventos FMOD asignados.");
             return;
         }
-
-        // Selecciona un evento aleatorio
-        int randomIndex = Random.Range(0, fmodEvents.Count);
+		emitter = this.gameObject.AddComponent<StudioEventEmitter>();
+		// Selecciona un evento aleatorio
+		int randomIndex = random.Next(0, fmodEvents.Count);
+        print(randomIndex);
         EventReference selectedEvent = fmodEvents[randomIndex];
 
+        emitter.EventReference = selectedEvent;
+        emitter.Play();
+        
+        emitter.EventStopTrigger = EmitterGameEvent.ObjectDestroy;
         // Crea y reproduce el evento
         currentEventInstance = RuntimeManager.CreateInstance(selectedEvent);
-        currentEventInstance.start();
+        //currentEventInstance.start();
 
         // Obtén la duración del evento y programa la siguiente reproducción
         currentEventInstance.getDescription(out var eventDescription);
@@ -54,7 +61,10 @@ public class RandomMusic : MonoBehaviour
         if (currentEventInstance.isValid())
         {
             currentEventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            emitter.Stop();
+            Destroy(emitter);
             currentEventInstance.release();
+            
         }
     }
 
