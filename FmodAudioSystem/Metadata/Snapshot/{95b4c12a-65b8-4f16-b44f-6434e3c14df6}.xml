@@ -320,7 +320,7 @@
 			<value>level</value>
 		</property>
 		<property name="value">
-			<value>4</value>
+			<value>-80</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{1120a24c-27c6-4867-b543-56242cc42f09}</destination>
