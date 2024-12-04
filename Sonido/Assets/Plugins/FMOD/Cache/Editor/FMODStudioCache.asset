@@ -379,10 +379,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638689087726955443
+  lastModified: 638689189003116183
   FileSizes:
   - Name: Desktop
-    Value: 5650976
+    Value: 10668288
   Exists: 1
 --- !u!114 &-4644387060009962514
 MonoBehaviour:
@@ -1001,12 +1001,13 @@ MonoBehaviour:
   - {fileID: -2867052661778253188}
   - {fileID: 1275211989216560383}
   - {fileID: -325769467350411450}
+  - {fileID: 1106039542123623140}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638689136494742398
+  cacheTime: 638689189003116183
   cacheVersion: 131621
 --- !u!114 &644171589325286289
 MonoBehaviour:
@@ -1089,6 +1090,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 147576
+--- !u!114 &1106039542123623140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FryingSound
+  m_EditorClassIdentifier: 
+  Path: event:/FryingSound
+  Guid:
+    Data1: 564053807
+    Data2: 1147258215
+    Data3: 261151625
+    Data4: 941138868
+  Banks:
+  - {fileID: -4802091426522526570}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44000
 --- !u!114 &1275211989216560383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,7 +1314,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638689136494712422
+  lastModified: 638689188900923365
   FileSizes:
   - Name: Desktop
     Value: 12846
@@ -1555,10 +1583,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638689136494742398
+  lastModified: 638689188900943196
   FileSizes:
   - Name: Desktop
-    Value: 3844
+    Value: 3896
   Exists: 1
 --- !u!114 &6277382271363265965
 MonoBehaviour:
