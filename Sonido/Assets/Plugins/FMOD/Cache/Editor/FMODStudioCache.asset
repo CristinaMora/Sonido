@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Fountain.bank
   Name: SFX_Fountain
   StudioPath: bank:/SFX_Fountain
-  lastModified: 638687812927214407
+  lastModified: 638689099152726863
   FileSizes:
   - Name: Desktop
-    Value: 5928672
+    Value: 5928608
   Exists: 1
 --- !u!114 &-8624582582205444746
 MonoBehaviour:
@@ -197,7 +197,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Arcade.bank
   Name: Arcade
   StudioPath: bank:/Arcade
-  lastModified: 638687796044612631
+  lastModified: 638689121103072905
   FileSizes:
   - Name: Desktop
     Value: 2801088
@@ -379,7 +379,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638687779877428774
+  lastModified: 638689087726955443
   FileSizes:
   - Name: Desktop
     Value: 5650976
@@ -654,6 +654,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 23440
+--- !u!114 &-2867052661778253188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/Conversation1
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/Conversation1
+  Guid:
+    Data1: 1291390538
+    Data2: 1111169678
+    Data3: -166227017
+    Data4: 150141834
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29500
 --- !u!114 &-2164054584089222035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +816,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41900
+--- !u!114 &-325769467350411450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/SoloTalking
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/SoloTalking
+  Guid:
+    Data1: -1716519705
+    Data2: 1127695236
+    Data3: -297439841
+    Data4: -111295599
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74760
 --- !u!114 &-285913919507437665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,13 +997,44 @@ MonoBehaviour:
   - {fileID: -258902312881451452}
   - {fileID: -4275384149520357575}
   - {fileID: -8624582582205444746}
+  - {fileID: 644171589325286289}
+  - {fileID: -2867052661778253188}
+  - {fileID: 1275211989216560383}
+  - {fileID: -325769467350411450}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3071153380418896223}
   StringsBanks:
   - {fileID: 6093083612157903448}
-  cacheTime: 638687812927214407
+  cacheTime: 638689136494742398
   cacheVersion: 131621
+--- !u!114 &644171589325286289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/Conversation3
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/Conversation3
+  Guid:
+    Data1: -539747786
+    Data2: 1232169468
+    Data3: -1990933854
+    Data4: -954451119
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 63133
 --- !u!114 &822526558539925916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,6 +1089,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 147576
+--- !u!114 &1275211989216560383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeopleTalking/Conversation2
+  m_EditorClassIdentifier: 
+  Path: event:/PeopleTalking/Conversation2
+  Guid:
+    Data1: -1466915485
+    Data2: 1216016568
+    Data3: -2039271254
+    Data4: -1200691150
+  Banks:
+  - {fileID: 7181234239297949583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104500
 --- !u!114 &1505497930526485326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,7 +1185,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_MallSong.bank
   Name: SFX_MallSong
   StudioPath: bank:/SFX_MallSong
-  lastModified: 638687779889949941
+  lastModified: 638689097552901788
   FileSizes:
   - Name: Desktop
     Value: 1935936
@@ -1174,10 +1286,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638687812926547019
+  lastModified: 638689136494712422
   FileSizes:
   - Name: Desktop
-    Value: 11926
+    Value: 12846
   Exists: 1
 --- !u!114 &3087574805976444629
 MonoBehaviour:
@@ -1194,7 +1306,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_TiendaElectronica.bank
   Name: SFX_TiendaElectronica
   StudioPath: bank:/SFX_TiendaElectronica
-  lastModified: 638687779893538179
+  lastModified: 638689087734122484
   FileSizes:
   - Name: Desktop
     Value: 4443360
@@ -1241,10 +1353,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_TiendaRopaMusic.bank
   Name: SFX_TiendaRopaMusic
   StudioPath: bank:/SFX_TiendaRopaMusic
-  lastModified: 638687779895969647
+  lastModified: 638689117387211949
   FileSizes:
   - Name: Desktop
-    Value: 2362176
+    Value: 2362240
   Exists: 1
 --- !u!114 &4297091710553358971
 MonoBehaviour:
@@ -1369,10 +1481,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Ladder.bank
   Name: SFX_Ladder
   StudioPath: bank:/SFX_Ladder
-  lastModified: 638687779888088270
+  lastModified: 638689087732070383
   FileSizes:
   - Name: Desktop
-    Value: 1141664
+    Value: 1141696
   Exists: 1
 --- !u!114 &6090620771849897633
 MonoBehaviour:
@@ -1443,10 +1555,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638687812926577100
+  lastModified: 638689136494742398
   FileSizes:
   - Name: Desktop
-    Value: 3670
+    Value: 3844
   Exists: 1
 --- !u!114 &6277382271363265965
 MonoBehaviour:
@@ -1490,10 +1602,10 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Voices.bank
   Name: SFX_Voices
   StudioPath: bank:/SFX_Voices
-  lastModified: 638687779896930236
+  lastModified: 638689130888093412
   FileSizes:
   - Name: Desktop
-    Value: 420640
+    Value: 3251808
   Exists: 1
 --- !u!114 &7245071761202402313
 MonoBehaviour:
@@ -1591,7 +1703,7 @@ MonoBehaviour:
   Path: ../FmodAudioSystem/Build/Desktop/SFX_Arcade.bank
   Name: SFX_Arcade
   StudioPath: bank:/SFX_Arcade
-  lastModified: 638687801080549868
+  lastModified: 638689087729478532
   FileSizes:
   - Name: Desktop
     Value: 2156160

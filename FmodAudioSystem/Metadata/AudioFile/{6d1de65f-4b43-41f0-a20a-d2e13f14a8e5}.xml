@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6d1de65f-4b43-41f0-a20a-d2e13f14a8e5}">
+		<property name="assetPath">
+			<value>Conversations/617521__neilraouf__2-young-women-talking-swiss-german (1).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>109.13200000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dcf19f25-ac7f-419d-a903-5844b203c82f}</destination>
+		</relationship>
+	</object>
+</objects>
